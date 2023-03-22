@@ -37,8 +37,8 @@ void bubbleSort(int* pData, int n, int* swapCounter)
 				pData[j] = pData[j+1];
 				pData[j+1] = temp;
 
-                swapCounter[j] += 1;
-                swapCounter[j + 1] += 1;
+                		swapCounter[j] += 1;
+                		swapCounter[j + 1] += 1;
 			}
 		}
 	}
